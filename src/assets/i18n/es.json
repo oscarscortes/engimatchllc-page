@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "success": "Caso de Éxito",
+    "about": "Nosotros",
+    "howItWorks": "Cómo Funciona",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tagline": "Reclutamiento de Ingeniería con Precisión",
+    "title": "El Ingeniero Correcto.",
+    "titleHighlight": "En el Momento Correcto.",
+    "subtitle": "Conectamos empresas de EE. UU. con talento de ingeniería internacional de élite — rápido, preciso y orientado al éxito a largo plazo.",
+    "cta": "Comenzar",
+    "ctaSecondary": "Conoce Más",
+    "stat1Value": "< 3 semanas",
+    "stat1Label": "Tiempo promedio de colocación",
+    "stat2Value": "100%",
+    "stat2Label": "Listos para visa TN",
+    "stat3Value": "Precisión",
+    "stat3Label": "Nuestro enfoque de reclutamiento"
+  },
+  "success": {
+    "badge": "Caso de Éxito",
+    "title": "Puesto Difícil. Cubierto en Menos de 3 Semanas.",
+    "subtitle": "Un caso real que demuestra cómo se ve el reclutamiento de precisión.",
+    "challenge": "El Desafío",
+    "solution": "Nuestra Solución",
+    "challengeItems": [
+      "Habilidades altamente especializadas",
+      "Pocos candidatos locales disponibles",
+      "Línea de tiempo operativa urgente"
+    ],
+    "solutionText": "Sourced y validamos talento internacional calificado, alineado con los requisitos técnicos y culturales del cliente — asegurando una contratación fluida que mantuvo su proyecto en marcha.",
+    "quote": "Hay gran talento por ahí. Solo necesitas al socio correcto para encontrarlo.",
+    "cta": "Trabajemos Juntos"
+  },
+  "about": {
+    "badge": "Sobre EngiMatch",
+    "title": "Diseñado para la",
+    "titleHighlight": "Precisión.",
+    "body": "En EngiMatch, cada proceso de reclutamiento técnico está diseñado con precisión. No nos enfocamos en volumen — nos enfocamos en la compatibilidad técnica y operativa entre el talento y la empresa. Cada ingeniero que presentamos ha sido evaluado en competencias, inglés técnico y disposición para integrarse bajo el programa de visa TN. Así es como construimos confianza, no solo contratos.",
+    "pillars": [
+      {
+        "icon": "🎯",
+        "title": "Precisión Técnica",
+        "desc": "Cada candidato es evaluado rigurosamente en las competencias técnicas relevantes para tu stack y rol."
+      },
+      {
+        "icon": "🤝",
+        "title": "Compatibilidad Cultural",
+        "desc": "Vamos más allá de las habilidades — alineamos el talento con la cultura y el estilo operativo de tu empresa."
+      },
+      {
+        "icon": "🌎",
+        "title": "Programa Visa TN",
+        "desc": "Ingenieros internacionales evaluados en elegibilidad para visa TN, dominio del inglés e integración fluida."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Proceso",
+    "title": "Cómo Funciona",
+    "subtitle": "Un proceso ágil y transparente diseñado para incorporar al ingeniero correcto en tu equipo — rápido.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cuéntanos Qué Necesitas",
+        "desc": "Comparte tus requisitos técnicos, cultura de equipo y cronograma de contratación. Más detalle, mejor candidato."
+      },
+      {
+        "number": "02",
+        "title": "Buscamos y Validamos",
+        "desc": "Identificamos y filtramos rigurosamente talento de ingeniería internacional — habilidades técnicas, inglés y elegibilidad para visa TN."
+      },
+      {
+        "number": "03",
+        "title": "Revisas los Mejores Candidatos",
+        "desc": "Recibes una lista curada de ingenieros pre-validados — sin ruido, solo los mejores para tu rol."
+      },
+      {
+        "number": "04",
+        "title": "Manejamos el Proceso",
+        "desc": "Te acompañamos en entrevistas, negociación de oferta y coordinación de visa TN de inicio a fin."
+      },
+      {
+        "number": "05",
+        "title": "Colocación Exitosa",
+        "desc": "Tu equipo crece con el talento correcto, a tiempo y dentro del presupuesto — con nuestro compromiso de éxito a largo plazo."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Contáctanos",
+    "title": "Encontremos a tu",
+    "titleHighlight": "Próximo Ingeniero.",
+    "subtitle": "Cuéntanos sobre tu rol y te respondemos en menos de 24 horas.",
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Juan García",
+      "company": "Nombre de la Empresa",
+      "companyPlaceholder": "Acme Corp",
+      "email": "Correo Corporativo",
+      "emailPlaceholder": "juan@acmecorp.com",
+      "role": "Puesto que Buscas Cubrir",
+      "rolePlaceholder": "Ej. Ingeniero Mecánico Senior",
+      "message": "Cuéntanos sobre tus Necesidades",
+      "messagePlaceholder": "Describe el puesto, las habilidades requeridas y tu cronograma...",
+      "submit": "Enviar Solicitud",
+      "submitting": "Enviando...",
+      "successTitle": "¡Mensaje Enviado!",
+      "successText": "Gracias por contactarnos. Te escribiremos en menos de 24 horas.",
+      "errorText": "Algo salió mal. Por favor intenta de nuevo o escríbenos directamente."
+    }
+  },
+  "footer": {
+    "tagline": "Reclutamiento de ingeniería de precisión conectando empresas de EE. UU. con talento internacional de élite.",
+    "links": "Navegación",
+    "contact": "Contacto",
+    "copyright": "© 2026 EngiMatch LLC. Todos los derechos reservados.",
+    "email": "recruiting@engimatchllc.com"
+  }
+}

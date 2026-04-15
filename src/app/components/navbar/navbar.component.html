@@ -1,0 +1,116 @@
+<nav
+  class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+  [class.bg-dark]="scrolled"
+  [class.shadow-lg]="scrolled"
+  [class.bg-transparent]="!scrolled"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <!-- Logo -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <img
+          src="assets/logo.jpeg"
+          alt="EngiMatch LLC Logo"
+          class="h-10 w-auto rounded-lg transition-transform duration-300 group-hover:scale-105"
+        />
+        <span class="text-white font-bold text-xl tracking-tight hidden sm:block">
+          Engi<span class="text-primary-light">Match</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <div class="hidden md:flex items-center gap-8">
+        <a
+          *ngFor="let link of navLinks"
+          [href]="link.href"
+          class="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200 hover:text-primary-light"
+        >
+          {{ link.label | translate }}
+        </a>
+      </div>
+
+      <!-- Right side: Lang switcher + CTA -->
+      <div class="flex items-center gap-3">
+        <!-- Language Switcher -->
+        <button
+          (click)="toggleLang()"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-white/20 text-white/80 hover:text-white hover:border-white/50 text-sm font-medium transition-all duration-200"
+          id="lang-toggle-btn"
+        >
+          <span class="text-base">{{ currentLang === 'en' ? '🇺🇸' : '🇲🇽' }}</span>
+          <span>{{ currentLang === 'en' ? 'ES' : 'EN' }}</span>
+        </button>
+
+        <!-- CTA Button -->
+        <a
+          href="#contact"
+          class="hidden sm:inline-flex items-center gap-2 bg-primary text-white font-semibold px-5 py-2.5 rounded-full text-sm hover:bg-primary-dark transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+        >
+          {{ 'nav.contact' | translate }}
+        </a>
+
+        <!-- Mobile menu toggle -->
+        <button
+          (click)="mobileOpen = !mobileOpen"
+          class="md:hidden text-white p-2 rounded-lg hover:bg-white/10 transition-colors"
+          id="mobile-menu-btn"
+        >
+          <svg
+            *ngIf="!mobileOpen"
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+          <svg
+            *ngIf="mobileOpen"
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div
+    *ngIf="mobileOpen"
+    class="md:hidden bg-dark/95 backdrop-blur-md border-t border-white/10 px-4 pb-6 pt-2"
+  >
+    <div class="flex flex-col gap-1">
+      <a
+        *ngFor="let link of navLinks"
+        [href]="link.href"
+        (click)="mobileOpen = false"
+        class="block px-4 py-3 text-slate-300 hover:text-white hover:bg-white/10 rounded-lg text-sm font-medium transition-all duration-200"
+      >
+        {{ link.label | translate }}
+      </a>
+      <div class="border-t border-white/10 mt-3 pt-3">
+        <a
+          href="#contact"
+          (click)="mobileOpen = false"
+          class="btn-primary text-sm justify-center w-full"
+        >
+          {{ 'nav.contact' | translate }}
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

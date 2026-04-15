@@ -1,0 +1,83 @@
+<section id="how-it-works" class="py-24 bg-dark overflow-hidden">
+  <!-- BG decoration -->
+  <div class="absolute inset-0 pointer-events-none overflow-hidden">
+    <div class="absolute top-1/4 right-0 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+  </div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="text-center mb-20">
+      <span
+        class="inline-block bg-primary/20 text-primary-light font-semibold text-sm px-4 py-1.5 rounded-full mb-4"
+      >
+        {{ 'howItWorks.badge' | translate }}
+      </span>
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        {{ 'howItWorks.title' | translate }}
+      </h2>
+      <p class="text-slate-400 text-lg max-w-2xl mx-auto">
+        {{ 'howItWorks.subtitle' | translate }}
+      </p>
+    </div>
+
+    <!-- Steps -->
+    <div class="relative">
+      <!-- Connecting line (desktop) -->
+      <div
+        class="hidden lg:block absolute top-10 left-[10%] right-[10%] h-0.5 bg-gradient-to-r from-primary/0 via-primary/40 to-primary/0"
+      ></div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div
+          *ngFor="let step of steps; let i = index"
+          class="relative flex flex-col items-center text-center group"
+        >
+          <!-- Number circle -->
+          <div
+            class="relative w-20 h-20 rounded-full flex items-center justify-center mb-6 z-10 bg-gradient-to-br from-primary to-primary-dark shadow-lg shadow-primary/30 transition-transform duration-300 group-hover:scale-110"
+          >
+            <span class="text-white font-extrabold text-lg">{{
+              'howItWorks.steps.' + i + '.number' | translate
+            }}</span>
+          </div>
+
+          <!-- Content -->
+          <h3 class="text-white font-bold text-base mb-3">
+            {{ 'howItWorks.steps.' + i + '.title' | translate }}
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            {{ 'howItWorks.steps.' + i + '.desc' | translate }}
+          </p>
+
+          <!-- Arrow between steps (mobile/tablet) -->
+          <div *ngIf="i < steps.length - 1" class="lg:hidden mt-6 text-primary/40">
+            <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom CTA -->
+    <div class="text-center mt-20">
+      <a href="#contact" class="btn-primary text-base px-10 py-4" id="hiw-cta-btn">
+        {{ 'hero.cta' | translate }}
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M17 8l4 4m0 0l-4 4m4-4H3"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,68 @@
+<footer class="bg-dark border-t border-white/10 py-14">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+      <!-- Brand -->
+      <div class="col-span-1">
+        <a href="#home" class="flex items-center gap-3 mb-4 group w-fit">
+          <img src="assets/logo.jpeg" alt="EngiMatch LLC" class="h-10 w-auto rounded-lg" />
+          <span class="text-white font-bold text-xl">
+            Engi<span class="text-primary-light">Match</span>
+            <span class="text-slate-500 font-normal text-base"> LLC</span>
+          </span>
+        </a>
+        <p class="text-slate-400 text-sm leading-relaxed max-w-xs">
+          {{ 'footer.tagline' | translate }}
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-white font-semibold mb-5 text-sm uppercase tracking-widest">
+          {{ 'footer.links' | translate }}
+        </h4>
+        <ul class="space-y-3">
+          <li *ngFor="let link of links">
+            <a
+              [href]="link.href"
+              class="text-slate-400 hover:text-white text-sm transition-colors duration-200 hover:text-primary-light"
+            >
+              {{ link.label | translate }}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="text-white font-semibold mb-5 text-sm uppercase tracking-widest">
+          {{ 'footer.contact' | translate }}
+        </h4>
+        <a
+          href="mailto:contact@engimatch.com"
+          class="text-slate-400 hover:text-primary-light text-sm transition-colors duration-200 flex items-center gap-2"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            />
+          </svg>
+          {{ 'footer.email' | translate }}
+        </a>
+      </div>
+    </div>
+
+    <div
+      class="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4"
+    >
+      <p class="text-slate-500 text-sm">{{ 'footer.copyright' | translate }}</p>
+      <div class="flex items-center gap-1 text-slate-500 text-sm">
+        <span>Made with</span>
+        <span class="text-red-400">♥</span>
+        <span>for great engineering talent</span>
+      </div>
+    </div>
+  </div>
+</footer>

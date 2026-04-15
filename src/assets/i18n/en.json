@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "success": "Success Story",
+    "about": "About",
+    "howItWorks": "How It Works",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Precision Engineering Recruitment",
+    "title": "The Right Engineer.",
+    "titleHighlight": "Right Now.",
+    "subtitle": "We connect U.S. companies with elite international engineering talent — fast, precise, and built for long-term success.",
+    "cta": "Get Started",
+    "ctaSecondary": "Learn More",
+    "stat1Value": "< 3 weeks",
+    "stat1Label": "Average time to fill",
+    "stat2Value": "100%",
+    "stat2Label": "TN visa ready",
+    "stat3Value": "Precision",
+    "stat3Label": "Recruitment approach"
+  },
+  "success": {
+    "badge": "Success Story",
+    "title": "Hard-to-Fill Role. Under 3 Weeks.",
+    "subtitle": "A real case that shows what precision recruitment looks like.",
+    "challenge": "The Challenge",
+    "solution": "Our Solution",
+    "challengeItems": [
+      "Highly specialized skillset",
+      "Limited local candidates",
+      "Urgent operational timeline"
+    ],
+    "solutionText": "We sourced and validated qualified international talent aligned with their technical and cultural requirements — ensuring a seamless hire that kept their project on schedule.",
+    "quote": "There's great talent out there. You just need the right partner to find it.",
+    "cta": "Work With Us"
+  },
+  "about": {
+    "badge": "About EngiMatch",
+    "title": "Engineered for",
+    "titleHighlight": "Precision.",
+    "body": "At EngiMatch, every technical recruitment process is engineered with precision. We don't focus on volume — we focus on technical and operational compatibility between talent and the company. Every engineer we present has been evaluated in competencies, technical English, and readiness to integrate under the TN visa program. This is how we build trust, not just contracts.",
+    "pillars": [
+      {
+        "icon": "🎯",
+        "title": "Technical Precision",
+        "desc": "Every candidate is rigorously evaluated on technical competencies relevant to your stack and role."
+      },
+      {
+        "icon": "🤝",
+        "title": "Cultural Fit",
+        "desc": "We go beyond skills — aligning talent with your company's culture and operational style."
+      },
+      {
+        "icon": "🌎",
+        "title": "TN Visa Program",
+        "desc": "International engineers vetted for TN visa eligibility, English proficiency, and seamless integration."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Process",
+    "title": "How It Works",
+    "subtitle": "A streamlined, transparent process designed to get the right engineer on your team — fast.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Tell Us What You Need",
+        "desc": "Share your technical requirements, team culture, and hiring timeline. The more detail, the better we match."
+      },
+      {
+        "number": "02",
+        "title": "We Source & Validate",
+        "desc": "We identify and rigorously screen international engineering talent — technical skills, English proficiency, and TN visa eligibility."
+      },
+      {
+        "number": "03",
+        "title": "Review Top Candidates",
+        "desc": "You receive a curated shortlist of pre-vetted engineers — no noise, just quality fits for your role."
+      },
+      {
+        "number": "04",
+        "title": "We Handle the Process",
+        "desc": "We support you through interviews, offer negotiations, and TN visa coordination from start to finish."
+      },
+      {
+        "number": "05",
+        "title": "Successful Placement",
+        "desc": "Your team grows with the right talent, on time and on budget — with our commitment to long-term success."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "Let's Find Your",
+    "titleHighlight": "Next Engineer.",
+    "subtitle": "Tell us about your role and we'll get back to you within 24 hours.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Smith",
+      "company": "Company Name",
+      "companyPlaceholder": "Acme Corp",
+      "email": "Work Email",
+      "emailPlaceholder": "john@acmecorp.com",
+      "role": "Role You're Hiring For",
+      "rolePlaceholder": "e.g. Senior Mechanical Engineer",
+      "message": "Tell Us About Your Needs",
+      "messagePlaceholder": "Describe the role, required skills, and your timeline...",
+      "submit": "Send Request",
+      "submitting": "Sending...",
+      "successTitle": "Message Sent!",
+      "successText": "Thank you for reaching out. We'll be in touch within 24 hours.",
+      "errorText": "Something went wrong. Please try again or email us directly."
+    }
+  },
+  "footer": {
+    "tagline": "Precision engineering recruitment connecting U.S. companies with elite international talent.",
+    "links": "Quick Links",
+    "contact": "Contact",
+    "copyright": "© 2026 EngiMatch LLC. All rights reserved.",
+    "email": "recruiting@engimatchllc.com"
+  }
+}
