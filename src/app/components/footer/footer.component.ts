@@ -6,14 +6,15 @@ import { TranslateModule } from '@ngx-translate/core';
   selector: 'app-footer',
   standalone: true,
   imports: [CommonModule, TranslateModule],
-  templateUrl: './footer.component.html'
+  templateUrl: './footer.component.html',
 })
 export class FooterComponent {
   links = [
-    { href: '#home',         label: 'nav.home' },
-    { href: '#about',        label: 'nav.about' },
-    { href: '#services',      label: 'nav.services' },
+    { href: '#home', label: 'nav.home' },
+    { href: '#about', label: 'nav.about' },
+    { href: '#services', label: 'nav.services' },
     { href: '#digital-services', label: 'nav.digitalServices' },
-    { href: '#contact',      label: 'nav.contact' },
+    { href: '#why-us', label: 'nav.whyUs' },
+    { href: '#contact', label: 'nav.contact' },
   ];
 }

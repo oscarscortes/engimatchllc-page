@@ -12,26 +12,32 @@ export class ServicesComponent {
   services = [
     {
       icon: 'assembly',
+      faIcon: 'fa-solid fa-screwdriver-wrench',
       index: 0,
     },
     {
       icon: 'maintenance',
+      faIcon: 'fa-solid fa-tools',
       index: 1,
     },
     {
       icon: 'production',
+      faIcon: 'fa-solid fa-industry',
       index: 2,
     },
     {
       icon: 'quality',
+      faIcon: 'fa-solid fa-shield-halved',
       index: 3,
     },
     {
       icon: 'process',
+      faIcon: 'fa-solid fa-gears',
       index: 4,
     },
     {
       icon: 'supervision',
+      faIcon: 'fa-solid fa-user-tie',
       index: 5,
     },
   ];

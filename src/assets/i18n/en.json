@@ -6,7 +6,8 @@
     "howItWorks": "How It Works",
     "contact": "Contact",
     "services": "Services",
-    "digitalServices": "Digital Services"
+    "digitalServices": "Digital Services",
+    "whyUs": "Why EngiMatch"
   },
   "hero": {
     "tagline": "Precision Engineering Recruitment",
@@ -205,6 +206,37 @@
         "number": "05",
         "title": "Successful Placement",
         "desc": "Your team grows with the right talent, on time and on budget — with our commitment to long-term success."
+      }
+    ]
+  },
+  "whyUs": {
+    "badge": "Why EngiMatch",
+    "title": "Why Companies Choose EngiMatch",
+    "subtitle": "One Partner for Talent + Digital Infrastructure",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Real technical experience"
+      },
+      {
+        "number": "02",
+        "title": "Clear business processes"
+      },
+      {
+        "number": "03",
+        "title": "Strong corporate image"
+      },
+      {
+        "number": "04",
+        "title": "Professional communication"
+      },
+      {
+        "number": "05",
+        "title": "Fast delivery"
+      },
+      {
+        "number": "06",
+        "title": "Continuous support"
       }
     ]
   },
