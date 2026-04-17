@@ -43,18 +43,23 @@
     "pillars": [
       {
         "icon": "🎯",
-        "title": "Precisión Técnica",
-        "desc": "Cada candidato es evaluado rigurosamente en las competencias técnicas relevantes para tu stack y rol."
+        "title": "Precisión Técnica"
       },
       {
         "icon": "🤝",
-        "title": "Compatibilidad Cultural",
-        "desc": "Vamos más allá de las habilidades — alineamos el talento con la cultura y el estilo operativo de tu empresa."
+        "title": "Compatibilidad Cultural"
       },
       {
         "icon": "🌎",
-        "title": "Programa Visa TN",
-        "desc": "Ingenieros internacionales evaluados en elegibilidad para visa TN, dominio del inglés e integración fluida."
+        "title": "Programa Visa TN"
+      },
+      {
+        "icon": "💻",
+        "title": "Soporte Digital Completo"
+      },
+      {
+        "icon": "📈",
+        "title": "Compromiso de Éxito a Largo Plazo"
       }
     ]
   },

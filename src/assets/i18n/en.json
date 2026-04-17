@@ -8,11 +8,11 @@
   },
   "hero": {
     "tagline": "Precision Engineering Recruitment",
-    "title": "The Right Engineer.",
+    "title": "Engineering Talent & Digital Solutions for Modern Companies",
     "titleHighlight": "Right Now.",
-    "subtitle": "We connect U.S. companies with elite international engineering talent — fast, precise, and built for long-term success.",
-    "cta": "Get Started",
-    "ctaSecondary": "Learn More",
+    "subtitle": "EngiMatch LLC connects companies with highly skilled technical talent and delivers professional digital solutions to strengthen corporate presence across the United States.",
+    "cta": "Request Staffing",
+    "ctaSecondary": "Start a Web Project",
     "stat1Value": "< 3 weeks",
     "stat1Label": "Average time to fill",
     "stat2Value": "100%",
@@ -37,26 +37,140 @@
   },
   "about": {
     "badge": "About EngiMatch",
-    "title": "Engineered for",
-    "titleHighlight": "Precision.",
-    "body": "At EngiMatch, every technical recruitment process is engineered with precision. We don't focus on volume — we focus on technical and operational compatibility between talent and the company. Every engineer we present has been evaluated in competencies, technical English, and readiness to integrate under the TN visa program. This is how we build trust, not just contracts.",
+    "title": "Technical Expertise Operational",
+    "titleHighlight": "Precision Corporate Reliability",
+    "titleRight": "What sets us apart:",
+    "body": "We are a binational company specializing in technical staffing, industrial operations, and corporate digital solutions. Our team combines real manufacturing experience with professional web development to support companies that require structure, credibility, and measurable results.",
     "pillars": [
       {
         "icon": "🎯",
-        "title": "Technical Precision",
-        "desc": "Every candidate is rigorously evaluated on technical competencies relevant to your stack and role."
+        "title": "Clear and efficient processes"
       },
       {
         "icon": "🤝",
-        "title": "Cultural Fit",
-        "desc": "We go beyond skills — aligning talent with your company's culture and operational style."
+        "title": "Professional bilingual communication"
+      },
+      {
+        "icon": "🔍",
+        "title": "Fast and reliable delivery"
       },
       {
         "icon": "🌎",
-        "title": "TN Visa Program",
-        "desc": "International engineers vetted for TN visa eligibility, English proficiency, and seamless integration."
+        "title": "Corporate and technical focus"
+      },
+      {
+        "icon": "💻",
+        "title": "Complete digital infrastructure support"
       }
     ]
+  },
+  "services": {
+  "badge": "Our Services",
+  "title": "Technical Staffing Services",
+  "titleHighlight": "Technical Staffing for Manufacturing & Industrial Operations",
+  "learnMore": "Learn More",
+  "services": [
+    {
+      "title": "Industrial Assembly"
+    },
+    {
+      "title": "Equipment Maintenance"
+    },
+    {
+      "title": "Production Operations"
+    },
+    {
+      "title": "Quality Assurance"
+    },
+    {
+      "title": "Process Optimization"
+    },
+    {
+      "title": "Technical Supervision"
+    }
+  ],
+  "benefitsTitle": "Benefits",
+  "benefits": [
+    {
+      "title": "Fast recruitment"
+    },
+    {
+      "title": "Trained personnel"
+    },
+    {
+      "title": "Legal compliance"
+    },
+    {
+      "title": "Continuous support"
+    },
+    {
+      "title": "Binational operation (USA-MX)"
+    }
+  ],
+  "titleRight": "EngiMatch LLC provides specialized talent for:",
+  "cta": "Request Staffing Support"
+},
+  "digitalServices": {
+    "badge": "Digital Services",
+    "title": "Web Development & Corporate Digital Solutions",
+    "titleHighlight": "Professional digital solutions for businesses that need corporate presence, structure, and credibility in the U.S. market.",
+    "learnMore": "Learn More",
+    "services": [
+      {
+        "title": "Corporate website development"
+      },
+      {
+        "title": "Landing pages for businesses and startups"
+      },
+      {
+        "title": "Professional branding (visual identity, colors, typography)"
+      },
+      {
+        "title": "Corporate email setup"
+      },
+      {
+        "title": "Form, CRM, and automation integrations"
+      },
+      {
+        "title": "Speed optimization and basic SEO"
+      },
+      {
+        "title": "Digital consulting for new U.S. businesses"
+      }
+    ],
+    "webPackagesTitle": "Website Packages (U.S. Market Pricing)",
+    "starterWebsite": {
+      "title": "Starter Website — $900",
+      "features": [
+        "1–3 section professional website",
+        "Modern and responsive design",
+        "Contact form",
+        "Corporate email setup"
+      ],
+      "price": "$900"
+    },
+    "businessWebsite": {
+      "title": "Business Website — $1,800",
+      "features": [
+        "4–6 section full website",
+        "Basic branding",
+        "Integrations (WhatsApp, email, CRM)",
+        "Initial SEO optimization"
+      ],
+      "price": "$1,800"
+    },
+    "corporateWebsite": {
+      "title": "Corporate Presence — $3,000+",
+      "features": [
+        "Premium design",
+        "Full branding package",
+        "Corporate digital infrastructure",
+        "Strategic consulting",
+        "Advanced integrations"
+      ],
+      "price": "$3,000+"
+    },
+    "cta": "Start Your Web Project"
   },
   "howItWorks": {
     "badge": "Process",

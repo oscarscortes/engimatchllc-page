@@ -4,7 +4,7 @@
       <!-- Left: Text Content -->
       <div>
         <span
-          class="inline-block bg-primary/10 text-primary font-semibold text-sm px-4 py-1.5 rounded-full mb-6"
+          class="inline-block bg-primary/10 text-primary font-semibold text-2xl px-4 py-1.5 rounded-full mb-6"
         >
           {{ 'about.badge' | translate }}
         </span>
@@ -58,23 +58,23 @@
       </div>
 
       <!-- Right: Pillars -->
-      <div class="space-y-5">
+      <div class="space-y-4">
+      <h4 class="text-6xl md:text-4xl font-extrabold text-dark leading-tight mb-6">
+          {{ 'about.titleRight' | translate }}<br />
+        </h4>
         <div
           *ngFor="let pillar of pillars"
-          class="card p-6 flex items-start gap-5 border border-slate-100"
+          class="card p-4 flex items-start gap-4 border border-slate-100"
         >
           <div
-            class="w-14 h-14 flex-shrink-0 rounded-2xl bg-primary/10 flex items-center justify-center text-2xl"
+            class="w-14 flex-shrink-0 rounded-2xl bg-primary/10 flex items-center justify-center text-2xl"
           >
             {{ pillar.icon }}
           </div>
           <div>
-            <h3 class="text-dark font-bold text-lg mb-2">
+            <h3 class="text-dark font-bold text-lg mb-1">
               {{ 'about.pillars.' + pillar.index + '.title' | translate }}
             </h3>
-            <p class="text-slate-500 text-sm leading-relaxed">
-              {{ 'about.pillars.' + pillar.index + '.desc' | translate }}
-            </p>
           </div>
         </div>
       </div>

@@ -13,5 +13,7 @@ export class AboutComponent {
     { icon: '🎯', index: 0 },
     { icon: '🤝', index: 1 },
     { icon: '🌎', index: 2 },
+    { icon: '💻', index: 3 },
+    { icon: '🔍', index: 4 }
   ];
 }
