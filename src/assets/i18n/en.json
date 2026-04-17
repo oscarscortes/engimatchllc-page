@@ -28,6 +28,11 @@
     "titleHighlight": "Precision Corporate Reliability",
     "titleRight": "What sets us apart:",
     "body": "EngiMatch LLC is a binational company specializing in technical staffing, industrial operations, and corporate digital solutions. Our team combines real manufacturing experience with professional web development to support companies that need structure, credibility, and measurable results",
+    "trustIndicators": {
+      "visaReady": "TN Visa Ready",
+      "fastPlacement": "Fast Placement",
+      "topTalent": "Top, 1% Talent"
+    },
     "pillars": [
       {
         "icon": "🎯",
@@ -251,6 +256,7 @@
     "title": "Get in Touch with",
     "titleHighlight": "EngiMatch LLC",
     "subtitle": "Choose the department that best fits your inquiry:",
+    "privacyLabel": "\uD83D\uDD12 Your information is private and will never be shared.",
     "form": {
       "name": "Full Name",
       "namePlaceholder": "John Smith",

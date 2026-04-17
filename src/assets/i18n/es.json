@@ -4,15 +4,17 @@
     "success": "Caso de Éxito",
     "about": "Nosotros",
     "howItWorks": "Cómo Funciona",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "services": "Servicios",
+    "digitalServices": "Servicios Digitales",
+    "whyUs": "Por qué EngiMatch"
   },
   "hero": {
-    "tagline": "Reclutamiento de Ingeniería con Precisión",
-    "title": "El Ingeniero Correcto.",
-    "titleHighlight": "En el Momento Correcto.",
-    "subtitle": "Conectamos empresas de EE. UU. con talento de ingeniería internacional de élite — rápido, preciso y orientado al éxito a largo plazo.",
+    "tagline": "Staffing Técnico • Operaciones Industriales • Infraestructura Digital Corporativa",
+    "title": "Talento de Ingeniería y Soluciones Digitales para Empresas Modernas",
+    "subtitle": "EngiMatch LLC ofrece soluciones de staffing técnico y servicios digitales para empresas que requieren talento confiable, estructura operativa y una presencia corporativa sólida en los Estados Unidos.",
     "cta": "Comenzar",
-    "ctaSecondary": "Conoce Más",
+    "ctaSecondary": "Empezar un Proyecto Web",
     "stat1Value": "< 3 semanas",
     "stat1Label": "Tiempo promedio de colocación",
     "stat2Value": "100%",
@@ -20,86 +22,241 @@
     "stat3Value": "Precisión",
     "stat3Label": "Nuestro enfoque de reclutamiento"
   },
-  "success": {
-    "badge": "Caso de Éxito",
-    "title": "Puesto Difícil. Cubierto en Menos de 3 Semanas.",
-    "subtitle": "Un caso real que demuestra cómo se ve el reclutamiento de precisión.",
-    "challenge": "El Desafío",
-    "solution": "Nuestra Solución",
-    "challengeItems": [
-      "Habilidades altamente especializadas",
-      "Pocos candidatos locales disponibles",
-      "Línea de tiempo operativa urgente"
-    ],
-    "solutionText": "Sourced y validamos talento internacional calificado, alineado con los requisitos técnicos y culturales del cliente — asegurando una contratación fluida que mantuvo su proyecto en marcha.",
-    "quote": "Hay gran talento por ahí. Solo necesitas al socio correcto para encontrarlo.",
-    "cta": "Trabajemos Juntos"
-  },
   "about": {
     "badge": "Sobre EngiMatch",
-    "title": "Diseñado para la",
-    "titleHighlight": "Precisión.",
-    "body": "En EngiMatch, cada proceso de reclutamiento técnico está diseñado con precisión. No nos enfocamos en volumen — nos enfocamos en la compatibilidad técnica y operativa entre el talento y la empresa. Cada ingeniero que presentamos ha sido evaluado en competencias, inglés técnico y disposición para integrarse bajo el programa de visa TN. Así es como construimos confianza, no solo contratos.",
+    "title": "Experiencia Técnica Precisión",
+    "titleHighlight": "Operativa Confiabilidad Corporativa",
+    "titleRight": "Lo que nos diferencia:",
+    "body": "EngiMatch LLC es una empresa binacional especializada en staffing técnico, operaciones industriales y soluciones digitales corporativas. Combinamos experiencia real en manufactura con desarrollo web profesional para apoyar a empresas que necesitan estructura, credibilidad y resultados medibles.",
+    "trustIndicators": {
+      "visaReady": "Listos para Visa TN",
+      "fastPlacement": "Colocación Rápida",
+      "topTalent": "Talento Top, 1%"
+    },
     "pillars": [
       {
         "icon": "🎯",
-        "title": "Precisión Técnica"
+        "title": "Procesos Claros y Eficientes"
       },
       {
         "icon": "🤝",
-        "title": "Compatibilidad Cultural"
+        "title": "Comunicación Profesional Bilingüe"
+      },
+      {
+        "icon": "🔍",
+        "title": "Entrega Rápida y Confiable"
       },
       {
         "icon": "🌎",
-        "title": "Programa Visa TN"
+        "title": "Enfoque Corporativo y Técnico"
       },
       {
         "icon": "💻",
-        "title": "Soporte Digital Completo"
-      },
-      {
-        "icon": "📈",
-        "title": "Compromiso de Éxito a Largo Plazo"
+        "title": "Soporte Completo de Infraestructura Digital"
       }
     ]
   },
-  "howItWorks": {
-    "badge": "Proceso",
-    "title": "Cómo Funciona",
-    "subtitle": "Un proceso ágil y transparente diseñado para incorporar al ingeniero correcto en tu equipo — rápido.",
+  "services": {
+    "badge": "Nuestros Servicios",
+    "title": "Servicios de Staffing Técnico",
+    "titleHighlight": "Staffing Técnico para Manufactura y Operaciones Industriales",
+    "learnMore": "Saber Más",
+    "subtitle": "EngiMatch LLC proporciona talento especializado en:",
+    "services": [
+      {
+        "title": "Ensamble Industrial"
+      },
+      {
+        "title": "Mantenimiento de equipos"
+      },
+      {
+        "title": "Operaciones de producción"
+      },
+      {
+        "title": "Aseguramiento de calidad"
+      },
+      {
+        "title": "Optimización de procesos"
+      },
+      {
+        "title": "Supervisión técnica"
+      },
+      {
+        "title": "Personal técnico listo para Visa TN"
+      },
+      {
+        "title": "Ingenieros STEM (Elegibles para Visa TN)"
+      },
+      {
+        "title": "Ingeniería Mecánica"
+      },
+      {
+        "title": "Ingeniería Eléctrica"
+      },
+      {
+        "title": "Ingeniería Industrial"
+      },
+      {
+        "title": "Ingeniería de Manufactura"
+      },
+      {
+        "title": "Tecnólogos en Ingeniería"
+      },
+      {
+        "title": "Ingeniería en Mecatrónica (clasificada bajo Tecnólogo en Ingeniería para TN)"
+      }
+    ],
+    "skillsTitle": "¿Por qué nuestro talento STEM y de Mecatrónica es importante?",
+    "skillsTitleHighlight": "Nuestros candidatos aportan habilidades multifuncionales en:",
+    "skills": [
+      {
+        "title": "Automatización"
+      },
+      {
+        "title": "Robótica"
+      },
+      {
+        "title": "Fundamentos de PLC"
+      },
+      {
+        "title": "Sistemas mecánicos"
+      },
+      {
+        "title": "Solución de problemas eléctricos"
+      },
+      {
+        "title": "Seguridad industrial"
+      },
+      {
+        "title": "Mantenimiento preventivo y predictivo"
+      },
+      {
+        "title": "Mejora continua"
+      }
+    ],
+    "skillLabel": "Esto permite a las empresas fortalecer la producción, reducir el tiempo de inactividad y mejorar la eficiencia operativa.",
+    "benefitsTitle": "Beneficios",
+    "benefits": [
+      {
+        "title": "Reclutamiento rápido"
+      },
+      {
+        "title": "Personal capacitado y confiable"
+      },
+      {
+        "title": "Cumplimiento legal"
+      },
+      {
+        "title": "Soporte operativo continuo"
+      },
+      {
+        "title": "Operación binacional (USA–MX)"
+      }
+    ],
+    "titleRight": "EngiMatch LLC proporciona talento especializado en:",
+    "cta": "Solicitar Apoyo de Staffing"
+  },
+  "digitalServices": {
+    "badge": "Servicios Digitales",
+    "title": "Desarrollo Web y Soluciones Digitales Corporativas",
+    "titleHighlight": "Ofrecemos soluciones digitales profesionales para empresas que necesitan presencia corporativa, estructura y credibilidad en el mercado estadounidense.",
+    "learnMore": "Saber Más",
+    "services": [
+      {
+        "title": "Desarrollo de sitios web corporativos"
+      },
+      {
+        "title": "Landing pages para negocios y startups"
+      },
+      {
+        "title": "Branding profesional"
+      },
+      {
+        "title": "Configuración de correos corporativos"
+      },
+      {
+        "title": "Integraciones con formularios, CRM y automatizaciones"
+      },
+      {
+        "title": "Optimización de velocidad y SEO básico"
+      },
+      {
+        "title": "Consultoría digital para nuevos negocios en EE.UU."
+      }
+    ],
+    "webPackagesTitle": "Paquetes de Sitios Web (Precios para el Mercado de EE.UU.)",
+    "webPackages": [
+      {
+        "title": "Sitio Web Inicial",
+        "features": [
+          "1–3 secciones de sitio web profesional",
+          "Diseño moderno y responsivo",
+          "Formulario de contacto básico",
+          "Integración de correo electrónico corporativo"
+        ],
+        "price": "$900"
+      },
+      {
+        "title": "Sitio Web Empresarial",
+        "features": [
+          "4–6 secciones de sitio web completo",
+          "Diseño personalizado",
+          "Integración de CRM y formularios avanzados",
+          "Optimización de velocidad y SEO básico"
+        ],
+        "price": "$1,800"
+      },
+      {
+        "title": "Presencia Corporativa",
+        "features": [
+          "Diseño premium",
+          "Paquete completo de branding",
+          "Infraestructura digital corporativa",
+          "Consultoría estratégica",
+          "Integraciones avanzadas"
+        ],
+        "price": "$3,000+"
+      }
+    ],
+    "cta": "Comenzar tu Proyecto Web"
+  },
+  "whyUs": {
+    "badge": "¿Por qué EngiMatch?",
+    "title": "¿Por qué las empresas eligen EngiMatch?",
+    "subtitle": "Un socio para talento e infraestructura digital",
     "steps": [
       {
         "number": "01",
-        "title": "Cuéntanos Qué Necesitas",
-        "desc": "Comparte tus requisitos técnicos, cultura de equipo y cronograma de contratación. Más detalle, mejor candidato."
+        "title": "Experiencia técnica real"
       },
       {
         "number": "02",
-        "title": "Buscamos y Validamos",
-        "desc": "Identificamos y filtramos rigurosamente talento de ingeniería internacional — habilidades técnicas, inglés y elegibilidad para visa TN."
+        "title": "Procesos claros de negocio"
       },
       {
         "number": "03",
-        "title": "Revisas los Mejores Candidatos",
-        "desc": "Recibes una lista curada de ingenieros pre-validados — sin ruido, solo los mejores para tu rol."
+        "title": "Imágen corporativa establecida"
       },
       {
         "number": "04",
-        "title": "Manejamos el Proceso",
-        "desc": "Te acompañamos en entrevistas, negociación de oferta y coordinación de visa TN de inicio a fin."
+        "title": "Comunicación efectiva"
       },
       {
         "number": "05",
-        "title": "Colocación Exitosa",
-        "desc": "Tu equipo crece con el talento correcto, a tiempo y dentro del presupuesto — con nuestro compromiso de éxito a largo plazo."
+        "title": "Entrega rápida y confiable"
+      },
+      {
+        "number": "06",
+        "title": "Soporte continuo"
       }
     ]
   },
   "contact": {
     "badge": "Contáctanos",
-    "title": "Encontremos a tu",
-    "titleHighlight": "Próximo Ingeniero.",
-    "subtitle": "Cuéntanos sobre tu rol y te respondemos en menos de 24 horas.",
+    "title": "Mantente Conectado con",
+    "titleHighlight": "EngiMatch LLC",
+    "subtitle": "Escoge el departamento que mejor se adapte a tus necesidades:",
+    "privacyLabel": "\uD83D\uDD12 Tu información es privada y nunca será compartida.",
     "form": {
       "name": "Nombre Completo",
       "namePlaceholder": "Juan García",
@@ -119,10 +276,14 @@
     }
   },
   "footer": {
-    "tagline": "Reclutamiento de ingeniería de precisión conectando empresas de EE. UU. con talento internacional de élite.",
+    "tagline": "Kingston, Georgia — USA",
+    "largeName": "Staffing Técnico y Soluciones Digitales",
     "links": "Navegación",
     "contact": "Contacto",
     "copyright": "© 2026 EngiMatch LLC. Todos los derechos reservados.",
-    "email": "recruiting@engimatchllc.com"
+    "emailCeo": "ceo@engimatchllc.com",
+    "emailOperations": "operations@engimatchllc.com",
+    "emailManager": "manager@engimatchllc.com",
+    "emailRecruiting": "recruiting@engimatchllc.com"
   }
 }
