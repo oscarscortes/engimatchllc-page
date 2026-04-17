@@ -4,7 +4,9 @@
     "success": "Success Story",
     "about": "About",
     "howItWorks": "How It Works",
-    "contact": "Contact"
+    "contact": "Contact",
+    "services": "Services",
+    "digitalServices": "Digital Services"
   },
   "hero": {
     "tagline": "Precision Engineering Recruitment",
@@ -139,37 +141,39 @@
       }
     ],
     "webPackagesTitle": "Website Packages (U.S. Market Pricing)",
-    "starterWebsite": {
-      "title": "Starter Website — $900",
-      "features": [
-        "1–3 section professional website",
-        "Modern and responsive design",
-        "Contact form",
-        "Corporate email setup"
-      ],
-      "price": "$900"
-    },
-    "businessWebsite": {
-      "title": "Business Website — $1,800",
-      "features": [
-        "4–6 section full website",
-        "Basic branding",
-        "Integrations (WhatsApp, email, CRM)",
-        "Initial SEO optimization"
-      ],
-      "price": "$1,800"
-    },
-    "corporateWebsite": {
-      "title": "Corporate Presence — $3,000+",
-      "features": [
-        "Premium design",
-        "Full branding package",
-        "Corporate digital infrastructure",
-        "Strategic consulting",
-        "Advanced integrations"
-      ],
-      "price": "$3,000+"
-    },
+    "webPackages": [
+      {
+        "title": "Starter Website",
+        "features": [
+          "1–3 section professional website",
+          "Modern and responsive design",
+          "Contact form",
+          "Corporate email setup"
+        ],
+        "price": "$900"
+      },
+      {
+        "title": "Business Website",
+        "features": [
+          "4–6 section full website",
+          "Basic branding",
+          "Integrations (WhatsApp, email, CRM)",
+          "Initial SEO optimization"
+        ],
+        "price": "$1,800"
+      },
+      {
+        "title": "Corporate Presence",
+        "features": [
+          "Premium design",
+          "Full branding package",
+          "Corporate digital infrastructure",
+          "Strategic consulting",
+          "Advanced integrations"
+        ],
+        "price": "$3,000+"
+      }
+    ],
     "cta": "Start Your Web Project"
   },
   "howItWorks": {
@@ -206,9 +210,9 @@
   },
   "contact": {
     "badge": "Contact Us",
-    "title": "Let's Find Your",
-    "titleHighlight": "Next Engineer.",
-    "subtitle": "Tell us about your role and we'll get back to you within 24 hours.",
+    "title": "Get in Touch with",
+    "titleHighlight": "EngiMatch LLC",
+    "subtitle": "Choose the department that best fits your inquiry:",
     "form": {
       "name": "Full Name",
       "namePlaceholder": "John Smith",
@@ -228,10 +232,14 @@
     }
   },
   "footer": {
-    "tagline": "Precision engineering recruitment connecting U.S. companies with elite international talent.",
+    "tagline": "Kingston, Georgia — USA",
+    "largeName": "Technical Staffing & Digital Solutions",
     "links": "Quick Links",
     "contact": "Contact",
     "copyright": "© 2026 EngiMatch LLC. All rights reserved.",
-    "email": "recruiting@engimatchllc.com"
+    "emailCeo": "ceo@engimatchllc.com",
+    "emailOperations": "operations@engimatchllc.com",
+    "emailManager": "manager@engimatchllc.com",
+    "emailRecruiting": "recruiting@engimatchllc.com"
   }
 }
