@@ -10,10 +10,9 @@
     "whyUs": "Why EngiMatch"
   },
   "hero": {
-    "tagline": "Precision Engineering Recruitment",
+    "tagline": "Technical Staffing • Industrial Operations • Corporate Digital Infrastructure",
     "title": "Engineering Talent & Digital Solutions for Modern Companies",
-    "titleHighlight": "Right Now.",
-    "subtitle": "EngiMatch LLC connects companies with highly skilled technical talent and delivers professional digital solutions to strengthen corporate presence across the United States.",
+    "subtitle": "EngiMatch LLC provides technical staffing solutions and digital services for companies that require reliable talent, operational structure, and a strong corporate presence in the United States.",
     "cta": "Request Staffing",
     "ctaSecondary": "Start a Web Project",
     "stat1Value": "< 3 weeks",
@@ -23,27 +22,12 @@
     "stat3Value": "Precision",
     "stat3Label": "Recruitment approach"
   },
-  "success": {
-    "badge": "Success Story",
-    "title": "Hard-to-Fill Role. Under 3 Weeks.",
-    "subtitle": "A real case that shows what precision recruitment looks like.",
-    "challenge": "The Challenge",
-    "solution": "Our Solution",
-    "challengeItems": [
-      "Highly specialized skillset",
-      "Limited local candidates",
-      "Urgent operational timeline"
-    ],
-    "solutionText": "We sourced and validated qualified international talent aligned with their technical and cultural requirements — ensuring a seamless hire that kept their project on schedule.",
-    "quote": "There's great talent out there. You just need the right partner to find it.",
-    "cta": "Work With Us"
-  },
   "about": {
     "badge": "About EngiMatch",
     "title": "Technical Expertise Operational",
     "titleHighlight": "Precision Corporate Reliability",
     "titleRight": "What sets us apart:",
-    "body": "We are a binational company specializing in technical staffing, industrial operations, and corporate digital solutions. Our team combines real manufacturing experience with professional web development to support companies that require structure, credibility, and measurable results.",
+    "body": "EngiMatch LLC is a binational company specializing in technical staffing, industrial operations, and corporate digital solutions. Our team combines real manufacturing experience with professional web development to support companies that need structure, credibility, and measurable results",
     "pillars": [
       {
         "icon": "🎯",
@@ -68,55 +52,109 @@
     ]
   },
   "services": {
-  "badge": "Our Services",
-  "title": "Technical Staffing Services",
-  "titleHighlight": "Technical Staffing for Manufacturing & Industrial Operations",
-  "learnMore": "Learn More",
-  "services": [
-    {
-      "title": "Industrial Assembly"
-    },
-    {
-      "title": "Equipment Maintenance"
-    },
-    {
-      "title": "Production Operations"
-    },
-    {
-      "title": "Quality Assurance"
-    },
-    {
-      "title": "Process Optimization"
-    },
-    {
-      "title": "Technical Supervision"
-    }
-  ],
-  "benefitsTitle": "Benefits",
-  "benefits": [
-    {
-      "title": "Fast recruitment"
-    },
-    {
-      "title": "Trained personnel"
-    },
-    {
-      "title": "Legal compliance"
-    },
-    {
-      "title": "Continuous support"
-    },
-    {
-      "title": "Binational operation (USA-MX)"
-    }
-  ],
-  "titleRight": "EngiMatch LLC provides specialized talent for:",
-  "cta": "Request Staffing Support"
-},
+    "badge": "Our Services",
+    "title": "Technical Staffing Services",
+    "titleHighlight": "Technical Staffing for Manufacturing & Industrial Operations",
+    "learnMore": "Learn More",
+    "subtitle": "EngiMatch LLC provides specialized talent for:",
+    "services": [
+      {
+        "title": "Industrial Assembly"
+      },
+      {
+        "title": "Equipment Maintenance"
+      },
+      {
+        "title": "Production Operations"
+      },
+      {
+        "title": "Quality Assurance"
+      },
+      {
+        "title": "Process Optimization"
+      },
+      {
+        "title": "Technical Supervision"
+      },
+      {
+        "title": "Mechatronics Technicians & Technologists"
+      },
+      {
+        "title": "STEM Engineers (TN‑Eligible)"
+      },
+      {
+        "title": "Mechanical Engineering"
+      },
+      {
+        "title": "Electrical Engineering"
+      },
+      {
+        "title": "Industrial Engineering"
+      },
+      {
+        "title": "Manufacturing Engineering"
+      },
+      {
+        "title": "Engineering Technologists"
+      },
+      {
+        "title": "Mechatronics Engineering (classified under Engineering Technologist for TN)"
+      }
+    ],
+    "skillsTitle": "Why our STEM & Mechatronics talent matters",
+    "skillsTitleHighlight": "Our candidates bring cross‑functional skills in:",
+    "skills": [
+      {
+        "title": "Automation"
+      },
+      {
+        "title": "Robotics"
+      },
+      {
+        "title": "PLC fundamentals"
+      },
+      {
+        "title": "Mechanical systems"
+      },
+      {
+        "title": "Electrical troubleshooting"
+      },
+      {
+        "title": "Industrial safety"
+      },
+      {
+        "title": "Preventive and predictive maintenance"
+      },
+      {
+        "title": "Continuous improvement"
+      }
+    ],
+    "skillLabel": "  This allows companies to strengthen production, reduce downtime, and improve operational efficiency.",
+    "benefitsTitle": "Benefits",
+    "benefits": [
+      {
+        "title": "Fast recruitment"
+      },
+      {
+        "title": "Trained personnel"
+      },
+      {
+        "title": "Legal compliance"
+      },
+      {
+        "title": "Continuous support"
+      },
+      {
+        "title": "Binational operation (USA-MX)"
+      }
+    ],
+    "titleRight": "EngiMatch LLC provides specialized talent for:",
+    "cta": "Request Staffing Support"
+  },
   "digitalServices": {
     "badge": "Digital Services",
-    "title": "Web Development & Corporate Digital Solutions",
-    "titleHighlight": "Professional digital solutions for businesses that need corporate presence, structure, and credibility in the U.S. market.",
+    "title": "Web Development and Corporate Digital Solutions",
+    "titleHighlight": "We deliver professional digital solutions for businesses that need a strong corporate presence, operational structure, and credibility in the U.S. market.",
     "learnMore": "Learn More",
     "services": [
       {
@@ -177,42 +215,10 @@
     ],
     "cta": "Start Your Web Project"
   },
-  "howItWorks": {
-    "badge": "Process",
-    "title": "How It Works",
-    "subtitle": "A streamlined, transparent process designed to get the right engineer on your team — fast.",
-    "steps": [
-      {
-        "number": "01",
-        "title": "Tell Us What You Need",
-        "desc": "Share your technical requirements, team culture, and hiring timeline. The more detail, the better we match."
-      },
-      {
-        "number": "02",
-        "title": "We Source & Validate",
-        "desc": "We identify and rigorously screen international engineering talent — technical skills, English proficiency, and TN visa eligibility."
-      },
-      {
-        "number": "03",
-        "title": "Review Top Candidates",
-        "desc": "You receive a curated shortlist of pre-vetted engineers — no noise, just quality fits for your role."
-      },
-      {
-        "number": "04",
-        "title": "We Handle the Process",
-        "desc": "We support you through interviews, offer negotiations, and TN visa coordination from start to finish."
-      },
-      {
-        "number": "05",
-        "title": "Successful Placement",
-        "desc": "Your team grows with the right talent, on time and on budget — with our commitment to long-term success."
-      }
-    ]
-  },
   "whyUs": {
     "badge": "Why EngiMatch",
     "title": "Why Companies Choose EngiMatch",
-    "subtitle": "One Partner for Talent + Digital Infrastructure",
+    "subtitle": "One Partner for Talent and Digital Infrastructure",
     "steps": [
       {
         "number": "01",
