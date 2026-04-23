@@ -7,6 +7,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DigitalServicesComponent } from './components/digital-services/digital-services.component';
 import { WhyUsComponent } from './components/why-us/why-us.component';
+import { ProblemsSolvedComponent } from './components/problems-solved/problems-solved.component';
 
 @Component({
   selector: 'app-root',
@@ -20,11 +21,13 @@ import { WhyUsComponent } from './components/why-us/why-us.component';
     ServicesComponent,
     DigitalServicesComponent,
     WhyUsComponent,
+    ProblemsSolvedComponent,
   ],
   template: `
     <app-navbar />
     <main>
       <app-hero />
+      <app-problems-solved />
       <app-about />
       <app-services />
       <app-digital-services />

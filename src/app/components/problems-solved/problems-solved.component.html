@@ -1,0 +1,21 @@
+<section id="problems-solved" class="py-20 bg-gray-50 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight leading-tight mb-4">
+      {{ 'problemsSolved.title' | translate }}
+    </h2>
+    <div class="max-w-7xl mx-auto my-3 px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-10">
+      <div *ngFor="let problem of problems"
+        class="group bg-white border border-gray-300 rounded-3xl p-8 flex flex-col items-center text-center gap-5 transform transition-all duration-350 hover:shadow-lg hover:-translate-y-1 hover:scale-[1.02]">
+        <div class="w-16 h-16 rounded-full bg-gradient-to-tr from-blue-500 to-blue-700 flex items-center justify-center text-white shadow-lg transition-colors duration-300 ">
+          <i [class]="problem.icon + ' text-3xl sm:text-4xl'" aria-hidden="true"></i>
+        </div>
+        <h3 class="text-lg sm:text-xl font-bold text-gray-800">{{ 'problemsSolved.problems.' + problem.index + '.title' | translate }}</h3>
+      </div>
+    </div>
+    <a class="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold text-base px-8 py-4 rounded-full shadow-xl mt-8 transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300"
+       href="#contact">
+      {{ 'problemsSolved.cta' | translate }}
+    </a>
+  </div>
+</section>
+

@@ -38,12 +38,20 @@
 
     <!-- Main Title -->
     <h1
-      class="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight mb-6 animate-fade-in-up"
+      class="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white max-w-4xl leading-tight mb-6 animate-fade-in-up"
       style="animation-delay: 0.1s"
     >
       {{ 'hero.title' | translate }}<br />
       <!--<span class="gradient-text">{{ 'hero.titleHighlight' | translate }}</span>-->
     </h1>
+
+    <!-- Another Subtitle -->
+    <h2
+      class="text-5xl sm:text-6xl md:text-5xl font-extrabold text-primary max-w-4xl leading-tight mb-6 animate-fade-in-up"
+      style="animation-delay: 0.2s"
+    >
+      {{ 'hero.subtitle2' | translate }}
+    </h2>
 
     <!-- Subtitle -->
     <p
@@ -52,6 +60,7 @@
     >
       {{ 'hero.subtitle' | translate }}
     </p>
+
 
     <!-- CTAs -->
     <div

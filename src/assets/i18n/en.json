@@ -10,9 +10,10 @@
     "whyUs": "Why EngiMatch"
   },
   "hero": {
-    "tagline": "Technical Staffing • Industrial Operations • Corporate Digital Infrastructure",
+    "tagline": "Technical Staffing • Web Development • Corporate Digital Infrastructure",
     "title": "Engineering Talent & Digital Solutions for Modern Companies",
-    "subtitle": "EngiMatch LLC provides technical staffing solutions and digital services for companies that require reliable talent, operational structure, and a strong corporate presence in the United States.",
+    "subtitle": "EngiMatch LLC connects companies with highly skilled technical talent and delivers professional digital solutions to strengthen corporate presence across the United States",
+    "subtitle2": "We place qualified technicians in 72 hours. Risk‑free. Pay only if you hire.",
     "cta": "Request Staffing",
     "ctaSecondary": "Start a Web Project",
     "stat1Value": "< 3 weeks",
@@ -21,6 +22,36 @@
     "stat2Label": "TN visa ready",
     "stat3Value": "Precision",
     "stat3Label": "Recruitment approach"
+  },
+  "problemsSolved": {
+    "title": "What Problems Do We Solve?",
+    "problems": [
+      {
+        "title": "Lack of qualified technicians"
+      },
+      {
+        "title": "High turnover in critical roles"
+      },
+      {
+        "title": "Need for bilingual staff"
+      },
+      {
+        "title": "Urgent proyect staffing needs"
+      },
+      {
+        "title": "Integration of specialized Mexican talent"
+      },
+      {
+        "title": "Difficulty assessing technical skills"
+      },
+      {
+        "title": "Slow or inefficient internal processes"
+      },
+      {
+        "title": "Lack of candidates with real manufacturing experience"
+      }
+    ],
+    "cta": "Request Staffing Today"
   },
   "about": {
     "badge": "About EngiMatch",

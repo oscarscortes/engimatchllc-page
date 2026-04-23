@@ -32,30 +32,28 @@ export class ContactComponent {
   onSubmit(): void {
     this.loading = true;
     this.errorMsg = '';
-    this.sendEmail().subscribe(this.successSendEmail.bind(this), (error) => {
-      console.error('Error al enviar el email:', error);
-      this.errorMsg = 'Ocurrió un error al enviar el mensaje. Por favor, inténtalo de nuevo.';
-      this.loading = false;
+    this.sendEmail().subscribe((res) => {
+      this.successSendEmail(res);
     });
   }
 
-  successSendEmail(Observable: Observable<any>): void {
-    Observable.subscribe({
-      next: (response) => {
-        console.log('Email enviado con éxito:', response);
-        this.submitted = true;
-        this.loading = false;
-      },
-      error: (error) => {
-        console.error('Error al enviar el email:', error);
-        this.errorMsg = 'Ocurrió un error al enviar el mensaje. Por favor, inténtalo de nuevo.';
-        this.loading = false;
-      }
-    });
+  successSendEmail(res: any): void {
+    if (res) {
+      console.log('Email enviado con éxito:', Observable);
+      this.submitted = true;
+      this.loading = false;
+    } else {
+      console.error('Error al enviar el email:', Observable);
+      this.errorMsg = 'Ocurrió un error al enviar el mensaje. Por favor, inténtalo de nuevo.';
+      this.loading = false;
+      this.submitted = false;
+    }
   }
 
   sendEmail(): Observable<any> {
-    return this.httpClient.post('/.netlify/functions/send-email', {
+    const url = "http://localhost:8888/.netlify/functions/send-email";
+    const url2 = ".netlify/functions/send-email";
+    return this.httpClient.post(url, {
       name: this.form.name,
       company: this.form.company,
       email: this.form.email,
