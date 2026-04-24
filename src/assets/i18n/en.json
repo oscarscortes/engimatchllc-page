@@ -7,7 +7,8 @@
     "contact": "Contact",
     "services": "Services",
     "digitalServices": "Digital Services",
-    "whyUs": "Why EngiMatch"
+    "whyUs": "Why EngiMatch",
+    "solved": "Problems Solved"
   },
   "hero": {
     "tagline": "Technical Staffing • Web Development • Corporate Digital Infrastructure",
@@ -58,7 +59,7 @@
     "title": "Technical Expertise Operational",
     "titleHighlight": "Precision Corporate Reliability",
     "titleRight": "What sets us apart:",
-    "body": "EngiMatch LLC is a binational company specializing in technical staffing, industrial operations, and corporate digital solutions. Our team combines real manufacturing experience with professional web development to support companies that need structure, credibility, and measurable results",
+    "body": "We are a binational company specializing in technical staffing, industrial operations, and corporate digital solutions. Our team combines real manufacturing experience with professional web development to support companies that require structure, credibility, and measurable results.",
     "trustIndicators": {
       "visaReady": "TN Visa Ready",
       "fastPlacement": "Fast Placement",

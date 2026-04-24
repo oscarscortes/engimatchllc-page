@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { NgForOf } from '@angular/common';
+import { CommonModule, NgForOf } from '@angular/common';
 import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-problems-solved',
   templateUrl: './problems-solved.component.html',
-  imports: [NgForOf, TranslatePipe],
-  styleUrls: ['./problems-solved.component.css'],
+  imports: [CommonModule, TranslatePipe]
 })
 export class ProblemsSolvedComponent {
   problems = [

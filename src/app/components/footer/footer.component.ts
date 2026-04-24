@@ -11,6 +11,7 @@ import { TranslateModule } from '@ngx-translate/core';
 export class FooterComponent {
   links = [
     { href: '#home', label: 'nav.home' },
+    { href: '#problems-solved', label: 'nav.solved' },
     { href: '#about', label: 'nav.about' },
     { href: '#services', label: 'nav.services' },
     { href: '#digital-services', label: 'nav.digitalServices' },
