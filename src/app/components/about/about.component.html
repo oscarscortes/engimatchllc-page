@@ -1,4 +1,4 @@
-<section id="about" class="py-24 bg-white overflow-hidden">
+<section id="about" class="py-24 bg-dark overflow-hidden">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
       <!-- Left: Text Content -->
@@ -8,11 +8,11 @@
         >
           {{ 'about.badge' | translate }}
         </span>
-        <h2 class="text-4xl md:text-5xl font-extrabold text-dark leading-tight mb-6">
+        <h2 class="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6">
           {{ 'about.title' | translate }}<br />
           <span class="gradient-text">{{ 'about.titleHighlight' | translate }}</span>
         </h2>
-        <p class="text-slate-600 text-lg leading-relaxed mb-8">
+        <p class="text-slate-400 text-lg leading-relaxed mb-8">
           {{ 'about.body' | translate }}
         </p>
 
@@ -59,12 +59,12 @@
 
       <!-- Right: Pillars -->
       <div class="space-y-4">
-      <h4 class="text-6xl md:text-4xl font-extrabold text-dark leading-tight mb-6">
+      <h4 class="text-6xl md:text-4xl font-extrabold text-white leading-tight mb-6">
           {{ 'about.titleRight' | translate }}<br />
         </h4>
         <div
           *ngFor="let pillar of pillars"
-          class="card p-4 flex items-start gap-4 border border-slate-100"
+          class="card p-4 flex items-start gap-4 border border-slate-600"
         >
           <div
             class="w-14 flex-shrink-0 rounded-2xl bg-primary/10 flex items-center justify-center text-2xl"

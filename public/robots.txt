@@ -1,0 +1,33 @@
+# robots.txt for EngiMatch LLC Landing Page
+# Last updated: 2026-04-24
+# Allow all search engines to crawl everything except sensitive or irrelevant files
+
+User-agent: *
+# Block sensitive folders and files
+Disallow: /netlify/
+Disallow: /functions/
+Disallow: /assets/i18n/
+Disallow: /README.md
+Disallow: /package.json
+Disallow: /tsconfig.json
+Disallow: /tsconfig.app.json
+Disallow: /tsconfig.spec.json
+Disallow: /postcss.config.js
+Disallow: /tailwind.config.js
+Disallow: /angular.json
+Disallow: /node_modules/
+
+# Allow everything else
+Allow: /
+
+# Sitemap for better indexing
+Sitemap: https://engimatchllc.com/sitemap.xml
+
+# Host (optional, for Yandex and some bots)
+Host: https://engimatchllc.com
+
+# Crawl-delay (optional, uncomment if server load is an issue)
+# Crawl-delay: 5
+
+# End of robots.txt
+

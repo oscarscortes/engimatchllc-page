@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { DigitalServicesComponent } from './components/digital-services/digital-services.component';
 import { WhyUsComponent } from './components/why-us/why-us.component';
 import { ProblemsSolvedComponent } from './components/problems-solved/problems-solved.component';
+import { HowItWorksComponent } from './components/how-it-works/how-it-works.component';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +23,7 @@ import { ProblemsSolvedComponent } from './components/problems-solved/problems-s
     DigitalServicesComponent,
     WhyUsComponent,
     ProblemsSolvedComponent,
+    HowItWorksComponent,
   ],
   template: `
     <app-navbar />
@@ -30,6 +32,7 @@ import { ProblemsSolvedComponent } from './components/problems-solved/problems-s
       <app-problems-solved />
       <app-about />
       <app-services />
+<!--      <app-how-it-works />-->
       <app-digital-services />
       <app-why-us />
       <app-contact />

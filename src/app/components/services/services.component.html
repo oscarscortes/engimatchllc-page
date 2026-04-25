@@ -1,28 +1,28 @@
-<section id="services" class="py-28 sm:py-36 bg-dark overflow-hidden">
+<section id="services" class="py-28 sm:py-36 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <span
             class="inline-block bg-primary/25 text-primary font-semibold text-sm sm:text-base px-4 py-1.5 rounded-full mb-6">
       {{ 'services.badge' | translate }}
     </span>
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-dark tracking-tight leading-tight mb-4">
             {{ 'services.title' | translate }}
         </h2>
-        <p class="text-slate-300 text-base sm:text-lg max-w-3xl mx-auto mb-10">
+        <p class="text-slate-600 text-base sm:text-lg max-w-3xl mx-auto mb-10">
             {{ 'services.titleHighlight' | translate }}
         </p>
-        <h3 class="text-xl sm:text-2xl md:text-2xl font-medium text-white tracking-tight leading-tight mb-4">
+        <h3 class="text-xl sm:text-2xl md:text-2xl font-medium text-dark tracking-tight leading-tight mb-4">
             {{ 'services.subtitle' | translate }}
         </h3>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <div
                     *ngFor="let service of services"
-                    class="relative group bg-dark-lighter border-2 border-primary/20 rounded-3xl p-10 flex flex-col items-center text-center gap-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:scale-[1.03]"
+                    class="group bg-primary/10 border border-border rounded-3xl p-8 flex flex-col items-center text-center gap-5 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:scale-[1.03]"
             >
                 <div
-                        class="w-16 h-16 rounded-full bg-gradient-to-tr from-primary/90 to-primary-dark flex items-center justify-center text-white shadow-lg mb-2 transition-colors duration-300 ">
+                        class="w-16 h-16 rounded-full bg-gradient-to-tr from-primary/95 to-primary-dark flex items-center justify-center text-white shadow-lg mb-2 transition-colors duration-300 ">
                     <i [class]="service.faIcon + ' text-3xl sm:text-4xl'" aria-hidden="true"></i>
                 </div>
-                <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 tracking-tight">
+                <h3 class="text-xl sm:text-2xl font-bold text-dark mb-2 tracking-tight">
                     {{ 'services.services.' + service.index + '.title' | translate }}
                 </h3>
                 <!-- <p class="text-slate-300 text-sm sm:text-base max-w-xs leading-relaxed">{{ ('services.services.' + service.index + '.description') | translate }}</p> -->
@@ -37,20 +37,20 @@
             </div>
         </div>
 
-        <h3 class="text-2xl sm:text-3xl font-extrabold text-white mt-12 mb-6">
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-dark mt-12 mb-6">
             {{ 'services.skillsTitle' | translate }}
             <span class="inline-block gradient-text">{{ 'services.skillsTitleHighlight'  | translate }}</span>
         </h3>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div *ngFor="let skill of skills"
-                 class="flex items-center gap-4 p-5 bg-[#07101a] border border-border rounded-2xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:scale-[1.03]">
+                 class="flex items-center gap-4 p-5 bg-primary/10 border border-border rounded-2xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:scale-[1.03]">
                 <div
                         class="w-12 h-12 flex-shrink-0 rounded-lg bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-white text-lg shadow-sm">
                     ✓
                 </div>
                 <div>
                     <h5
-                            class="text-white font-semibold text-base">{{ 'services.skills.' + skill.index + '.title' | translate }}</h5>
+                            class="text-dark font-semibold text-base">{{ 'services.skills.' + skill.index + '.title' | translate }}</h5>
                     <!--            <p class="text-slate-300 text-sm mt-1">{{ ('services.benefits.' + benefit.index + '.description') | translate }}</p>-->
                 </div>
             </div>
