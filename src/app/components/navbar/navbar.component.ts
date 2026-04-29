@@ -18,6 +18,7 @@ export class NavbarComponent implements OnInit {
     { href: '#problems-solved', label: 'nav.solved' },
     { href: '#about', label: 'nav.about' },
     { href: '#services', label: 'nav.services' },
+    { href: '#process', label: 'nav.process' },
     { href: '#digital-services', label: 'nav.digitalServices' },
     { href: '#why-us', label: 'nav.whyUs' },
     { href: '#contact', label: 'nav.contact' },

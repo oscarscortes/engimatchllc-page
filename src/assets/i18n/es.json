@@ -8,7 +8,8 @@
     "services": "Servicios",
     "digitalServices": "Servicios Digitales",
     "whyUs": "Por qué EngiMatch",
-    "solved": "Problemas Resueltos"
+    "solved": "Desafíos",
+    "process": "Proceso"
   },
   "hero": {
     "tagline": "Staffing Técnico • Desarrollo Web • Infraestructura Digital Corporativa",
@@ -17,7 +18,7 @@
     "subtitle2": "Colocamos técnicos calificados en 72 horas. Sin riesgo. Pago solo si contratas.",
     "cta": "Comenzar",
     "ctaSecondary": "Empezar un Proyecto Web",
-    "stat1Value": "< 3 semanas",
+    "stat1Value": "3 semanas",
     "stat1Label": "Tiempo promedio de colocación",
     "stat2Value": "100%",
     "stat2Label": "Listos para visa TN",
@@ -184,6 +185,38 @@
     ],
     "titleRight": "EngiMatch LLC proporciona talento especializado en:",
     "cta": "Solicitar Apoyo de Staffing"
+  },
+  "process":  {
+    "badge": "Cómo Funciona",
+    "title": "Nuestro Proceso",
+    "steps": [
+      {
+        "number": "01",
+          "title": "Requerimiento",
+        "desc": "Definimos el perfil exacto según tus necesidades técnicas."
+      },
+      {
+        "number": "02",
+        "title": "Reclutamiento",
+        "desc": "Buscamos candidatos calificados especializados en manufactura, mantenimiento y operaciones."
+      },
+      {
+        "number": "03",
+        "title": "Validación Técnica",
+        "desc": "Evaluamos habilidades, inglés técnico y experiencia real."
+      },
+      {
+        "number": "04",
+        "title": "Integración",
+        "desc": "Coordinamos entrevistas, onboarding y documentación."
+      },
+      {
+        "number": "05",
+        "title": "Seguimiento",
+        "desc": "Aseguramos desempeño, asistencia y continuidad."
+      }
+    ],
+    "cta": "Solicita personal hoy"
   },
   "digitalServices": {
     "badge": "Servicios Digitales",

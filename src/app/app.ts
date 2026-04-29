@@ -32,7 +32,7 @@ import { HowItWorksComponent } from './components/how-it-works/how-it-works.comp
       <app-problems-solved />
       <app-about />
       <app-services />
-<!--      <app-how-it-works />-->
+      <app-how-it-works />
       <app-digital-services />
       <app-why-us />
       <app-contact />

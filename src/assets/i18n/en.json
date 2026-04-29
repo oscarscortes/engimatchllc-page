@@ -8,7 +8,8 @@
     "services": "Services",
     "digitalServices": "Digital Services",
     "whyUs": "Why EngiMatch",
-    "solved": "Problems Solved"
+    "solved": "Challenges",
+    "process": "Process"
   },
   "hero": {
     "tagline": "Technical Staffing • Web Development • Corporate Digital Infrastructure",
@@ -17,7 +18,7 @@
     "subtitle2": "We place qualified technicians in 72 hours. Risk‑free. Pay only if you hire.",
     "cta": "Request Staffing",
     "ctaSecondary": "Start a Web Project",
-    "stat1Value": "< 3 weeks",
+    "stat1Value": "3 weeks",
     "stat1Label": "Average time to fill",
     "stat2Value": "100%",
     "stat2Label": "TN visa ready",
@@ -187,6 +188,38 @@
     ],
     "titleRight": "EngiMatch LLC provides specialized talent for:",
     "cta": "Request Staffing Support"
+  },
+  "process": {
+    "badge": "How It Works",
+    "title": "Our Process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Requirement",
+        "desc": "We define the exact profile according to your technical needs."
+      },
+      {
+        "number": "02",
+        "title": "Recruitment",
+        "desc": "We are looking for qualified candidates specialized in manufacturing, maintenance and operations."
+      },
+      {
+        "number": "03",
+        "title": "Technical Validation",
+        "desc": "We assess skills, technical English and real-world experience."
+      },
+      {
+        "number": "04",
+        "title": "Integration",
+        "desc": "We coordinate interviews, onboarding and documentation."
+      },
+      {
+        "number": "05",
+        "title": "Follow‑up",
+        "desc": "We guarantee performance, attendance and continuity."
+      }
+    ],
+    "cta": "Request Staff Today"
   },
   "digitalServices": {
     "badge": "Digital Services",
