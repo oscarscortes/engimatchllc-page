@@ -14,19 +14,34 @@ exports.handler = async (event) => {
   try {
     const data = JSON.parse(event.body);
 
-    const { name, email, message, company, role } = data;
+    const { name, email, message, company, role, inquiryType, resume } = data;
 
-    if (!name || !email || !message || !company || !role) {
+    if (!name || !email || !message || !company || !role || !inquiryType) {
       return {
         statusCode: 400,
         body: JSON.stringify({ error: 'Missing fields' }),
       };
     }
 
-    // Enviar correo
-    const response = await resend.emails.send({
+    if (inquiryType === 'candidate') {
+      if (!resume) {
+        return {
+          statusCode: 400,
+          body: JSON.stringify({ error: 'Missing resume' }),
+        }
+      }
+      if (resume.archivoContentType !== 'application/pdf') {
+        return {
+          statusCode: 400,
+          body: JSON.stringify({ error: 'Missing archivoContentType' }),
+        }
+      }
+    }
+
+    const mailOptions = {
       from: 'Tu Web <onboarding@resend.dev>',
-      to: ['operations@engimatchllc.com'],
+      // to: ['operations@engimatchllc.com'],
+      to: 'oscars.cortesramirez@gmail.com',
       subject: `Nuevo mensaje de ${name}`,
       reply_to: email,
       html: `
@@ -40,6 +55,7 @@ exports.handler = async (event) => {
             <p style="margin:0 0 8px 0;"><strong>Email:</strong> <span style="color:#111827;">${email}</span></p>
             <p style="margin: 0 0 8px 0;"><strong>Company:</strong> <span style="color: #111827;">${company}</span></p>
             <p style="margin: 0 0 8px 0;"><strong>Role:</strong> <span style="color: #111827;">${role}</span></p>
+            <p style="margin: 0 0 8px 0;"><strong>Inquiry:</strong> <span style="color: #111827;">${inquiryType}</span></p>
           </div>
           <div style="background:#fff;border-radius:8px;padding:16px 14px;border:1px solid #e5e7eb;margin-bottom:18px;">
             <p style="margin:0 0 6px 0;font-weight:600;color:#2563eb;">Mensaje:</p>
@@ -50,7 +66,19 @@ exports.handler = async (event) => {
           </div>
         </div>
       `,
-    });
+    }
+
+    if (inquiryType === 'candidate' && resume) {
+      mailOptions.attachments = [
+        {
+          content: resume.archivo,
+          filename: 'candidate: ' + name + ' CV.pdf',
+        }
+      ];
+    }
+
+    // Enviar correo
+    const response = await resend.emails.send(mailOptions);
 
     return {
       statusCode: 200,

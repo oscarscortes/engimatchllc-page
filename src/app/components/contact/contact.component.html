@@ -9,7 +9,7 @@
           {{ 'contact.badge' | translate }}
         </span>
         <h2 class="text-4xl md:text-5xl font-extrabold text-dark leading-tight mb-6">
-          {{ 'contact.title' | translate }}<br />
+          {{ 'contact.title' | translate }}<br/>
           <span class="gradient-text">{{ 'contact.titleHighlight' | translate }}</span>
         </h2>
         <p class="text-slate-500 text-lg mb-10">{{ 'contact.subtitle' | translate }}</p>
@@ -69,16 +69,16 @@
               </svg>
             </div>
             <div>
-            <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">
-              Operations Email
+              <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">
+                Operations Email
+              </div>
+              <a
+                href="mailto:operations@engimatchllc.com"
+                class="text-dark font-semibold hover:text-primary transition-colors"
+              >
+                {{ 'footer.emailOperations' | translate }}
+              </a>
             </div>
-            <a
-              href="mailto:operations@engimatchllc.com"
-              class="text-dark font-semibold hover:text-primary transition-colors"
-            >
-              {{ 'footer.emailOperations' | translate }}
-            </a>
-          </div>
           </div>
           <div
             class="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-sm border border-slate-100"
@@ -133,45 +133,45 @@
               </svg>
             </div>
             <div>
-            <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">
-              Recruiting Email
+              <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">
+                Recruiting Email
+              </div>
+              <a
+                href="mailto:recruiting@engimatchllc.com"
+                class="text-dark font-semibold hover:text-primary transition-colors"
+              >
+                {{ 'footer.emailRecruiting' | translate }}
+              </a>
             </div>
-            <a
-              href="mailto:recruiting@engimatchllc.com"
-              class="text-dark font-semibold hover:text-primary transition-colors"
-            >
-              {{ 'footer.emailRecruiting' | translate }}
-            </a>
-          </div>
           </div>
 
-<!--          <div-->
-<!--            class="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-sm border border-slate-100"-->
-<!--          >-->
-<!--            <div-->
-<!--              class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0"-->
-<!--            >-->
-<!--              <svg-->
-<!--                class="w-6 h-6 text-primary"-->
-<!--                fill="none"-->
-<!--                stroke="currentColor"-->
-<!--                viewBox="0 0 24 24"-->
-<!--              >-->
-<!--                <path-->
-<!--                  stroke-linecap="round"-->
-<!--                  stroke-linejoin="round"-->
-<!--                  stroke-width="2"-->
-<!--                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"-->
-<!--                />-->
-<!--              </svg>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--              <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">-->
-<!--                Response Time-->
-<!--              </div>-->
-<!--              <span class="text-dark font-semibold">Within 24 hours</span>-->
-<!--            </div>-->
-<!--          </div>-->
+          <!--          <div-->
+          <!--            class="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-sm border border-slate-100"-->
+          <!--          >-->
+          <!--            <div-->
+          <!--              class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0"-->
+          <!--            >-->
+          <!--              <svg-->
+          <!--                class="w-6 h-6 text-primary"-->
+          <!--                fill="none"-->
+          <!--                stroke="currentColor"-->
+          <!--                viewBox="0 0 24 24"-->
+          <!--              >-->
+          <!--                <path-->
+          <!--                  stroke-linecap="round"-->
+          <!--                  stroke-linejoin="round"-->
+          <!--                  stroke-width="2"-->
+          <!--                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"-->
+          <!--                />-->
+          <!--              </svg>-->
+          <!--            </div>-->
+          <!--            <div>-->
+          <!--              <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">-->
+          <!--                Response Time-->
+          <!--              </div>-->
+          <!--              <span class="text-dark font-semibold">Within 24 hours</span>-->
+          <!--            </div>-->
+          <!--          </div>-->
         </div>
       </div>
 
@@ -201,12 +201,28 @@
           </h3>
           <p class="text-slate-500">{{ 'contact.form.successText' | translate }}</p>
           <button (click)="submitted = false; errorMsg = ''" class="btn-primary mt-8">
-            Send Another
+            {{ 'contact.form.sendAnother' | translate }}
           </button>
         </div>
 
         <!-- Form -->
         <form *ngIf="!submitted" (ngSubmit)="onSubmit()" #contactForm="ngForm" id="contact-form">
+
+          <div class="col-12">
+            <label class="block text-sm font-semibold text-dark mb-2">
+              {{ 'contact.form.inquiryLabel' | translate }}
+            </label>
+            <select id="contact-inquiry-type"
+                    name="inquiryType"
+                    [(ngModel)]="form.inquiryType"
+                    required
+                    class="input-field w-full mb-5">
+              <option value="candidate" selected>{{ 'contact.form.inquiryTypes.candidate' | translate }}</option>
+              <option value="company">{{ 'contact.form.inquiryTypes.company' | translate }}</option>
+              <option value="digital">{{ 'contact.form.inquiryTypes.digital' | translate }}</option>
+            </select>
+          </div>
+
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
             <!-- Name -->
             <div>
@@ -270,7 +286,6 @@
               class="input-field"
             />
           </div>
-
           <!-- Message -->
           <div class="mb-7">
             <label class="block text-sm font-semibold text-dark mb-2">
@@ -285,6 +300,48 @@
               [placeholder]="'contact.form.messagePlaceholder' | translate"
               class="input-field resize-none"
             ></textarea>
+          </div>
+
+          <!-- Resume Upload -->
+          <div class="mb-7" *ngIf="form.inquiryType === 'candidate'">
+            <label class="block text-sm font-semibold text-dark mb-2">
+              {{ 'contact.form.resume' | translate }}
+            </label>
+            <input
+              #inputFile
+              id="contact-resume"
+              type="file"
+              name="resume"
+              (change)="onFileChange($event.target.files)"
+              accept=".pdf"
+              class="input-field"
+              required
+              hidden
+            />
+            <div *ngIf="form.resume; else viewBlock" class="flex flex-row items-center gap-2">
+              <button
+                type="button"
+                class="btn-primary flex-1 flex items-center gap-2 justify-center text-base py-4"
+                style="min-width:0;"
+              >
+                <i class="fa fa-file-pdf text-primary text-lg"></i>
+                <span class="truncate">{{ form.resume.nombre }}</span>
+              </button>
+              <button type="button" class="btn btn-fill btn-primary px-3 flex items-center justify-center" (click)="changeFile()" style="height:44px;">
+                <i class="fa fa-sync-alt"></i>
+              </button>
+            </div>
+            <ng-template #viewBlock>
+              <div class="col-12">
+                <button type="button" class="btn-primary w-full flex items-center justify-center text-base py-4" [disabled]="loading"
+                        (click)="selectFile()">
+                  <i [class]="loading ? 'fa fa-circle-notch fa-spin' : 'fa fa-file-upload'"></i>
+                  <span class="ml-2" *ngIf="!loading; else load">{{ 'contact.form.selectFile' | translate }} (Max. {{ maxSize }} MB.)</span>
+                  <ng-template #load><span class="ml-2">{{ 'contact.form.loadingFile' | translate }}</span></ng-template>
+                </button>
+              </div>
+            </ng-template>
+
           </div>
 
           <!-- Error -->
@@ -323,7 +380,7 @@
           </button>
 
           <p class="text-xs text-slate-400 text-center mt-4">
-<!--            🔒 Your information is private and will never be shared.-->
+            <!--            🔒 Your information is private and will never be shared.-->
             {{ 'contact.privacyLabel' | translate }}
           </p>
         </form>

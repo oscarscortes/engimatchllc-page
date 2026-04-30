@@ -334,7 +334,17 @@
       "submitting": "Enviando...",
       "successTitle": "¡Mensaje Enviado!",
       "successText": "Gracias por contactarnos. Te escribiremos en menos de 24 horas.",
-      "errorText": "Algo salió mal. Por favor intenta de nuevo o escríbenos directamente."
+      "errorText": "Algo salió mal. Por favor intenta de nuevo o escríbenos directamente.",
+      "inquiryLabel": "Selecciona el tipo de consulta",
+      "inquiryTypes": {
+        "candidate": "Consulta de Candidato",
+        "digital": "Consulta de Servicios Digitales",
+        "company": "Consulta de Empresa"
+      },
+      "resume": "Adjunta tu CV",
+      "sendAnother": "Enviar otro",
+      "selectFile": "Seleccionar Archivo",
+      "loadingFile": "Cargando archivo..."
     }
   },
   "footer": {

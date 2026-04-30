@@ -337,7 +337,17 @@
       "submitting": "Sending...",
       "successTitle": "Message Sent!",
       "successText": "Thank you for reaching out. We'll be in touch within 24 hours.",
-      "errorText": "Something went wrong. Please try again or email us directly."
+      "errorText": "Something went wrong. Please try again or email us directly.",
+      "inquiryLabel": "Select Inquiry Type",
+      "inquiryTypes": {
+        "candidate": "Candidate Inquiry",
+        "digital": "Digital Services Inquiry",
+        "company": "Company Inquiry"
+      },
+      "resume": "Upload Resume",
+      "sendAnother": "Send Another",
+      "selectFile": "Select File",
+      "loadingFile": "Uploading..."
     }
   },
   "footer": {
