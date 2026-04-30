@@ -40,8 +40,8 @@ exports.handler = async (event) => {
 
     const mailOptions = {
       from: 'Tu Web <onboarding@resend.dev>',
-      // to: ['operations@engimatchllc.com'],
-      to: 'oscars.cortesramirez@gmail.com',
+      to: ['operations@engimatchllc.com'],
+      // to: 'oscars.cortesramirez@gmail.com',
       subject: `Nuevo mensaje de ${name}`,
       reply_to: email,
       html: `

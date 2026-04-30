@@ -62,7 +62,7 @@ export class ContactComponent {
   sendEmail(): Observable<any> {
     const url = 'http://localhost:8888/.netlify/functions/send-email';
     const url2 = '.netlify/functions/send-email';
-    return this.httpClient.post(url, {
+    return this.httpClient.post(url2, {
       name: this.form.name,
       company: this.form.company,
       email: this.form.email,
