@@ -1,0 +1,48 @@
+name: SSL Certificate Check
+
+on:
+  schedule:
+    # Se ejecuta todos los lunes a las 08:00 UTC
+    - cron: '0 8 * * 1'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+
+permissions:
+  issues: write
+
+jobs:
+  check-ssl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verificar Certificado SSL
+        id: ssl_check
+        run: |
+          DOMAIN="engimatchllc.com"
+          DAYS_THRESHOLD=14
+
+          # Obtener fecha de expiración mediante openssl
+          EXP_DATE=$(openssl s_client -servername "$DOMAIN" -connect "$DOMAIN":443 </dev/null 2>/dev/null | openssl x509 -noout -enddate | cut -d= -f2)
+
+          if [ -z "$EXP_DATE" ]; then
+            echo "Error: No se pudo conectar o leer el certificado SSL de $DOMAIN"
+            exit 1
+          fi
+
+          EXP_EPOCH=$(date -d "$EXP_DATE" +%s)
+          NOW_EPOCH=$(date +%s)
+          DAYS_LEFT=$(( (EXP_EPOCH - NOW_EPOCH) / 86400 ))
+
+          echo "Días restantes para vencimiento: $DAYS_LEFT"
+
+          if [ "$DAYS_LEFT" -lt "$DAYS_THRESHOLD" ]; then
+            echo "Alerta: El certificado para $DOMAIN expira en $DAYS_LEFT días."
+            exit 1
+          fi
+
+      - name: Crear Issue de notificación en GitHub si falla
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "⚠️ Alerta SSL: Problema con el certificado de engimatchllc.com" \
+            --body "Se ha detectado un error o el certificado SSL para **engimatchllc.com** está a menos de 14 días de vencer. Revisa el panel de Netlify."
